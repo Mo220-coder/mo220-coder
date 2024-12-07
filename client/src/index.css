@@ -1,0 +1,113 @@
+*{
+  text-decoration: none !important;
+}
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --purple: #974FD0;
+  --orange: #F38383;
+}
+
+a {
+  color:black !important;
+}
+a:hover {
+  color: gray !important;
+  transition: 0.3s ease-in-out;
+}
+
+
+.hero h1 {
+  font-size: 46px;
+  margin-bottom: 24px;
+}
+
+.hero h1 span {
+  color: var(--purple);
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.hero button {
+  background-color: var(--purple);
+  color: white;
+  width: 201px;
+  height: 50px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+.addTaskBtn {
+  color: var(--purple);
+  border: none;
+  width: 117px;
+  height: 30px;
+  background-color: none;
+}
+
+.EditBtn {
+color: var(--purple);
+background-color: var(--purple);
+width: 42px;
+height: 30px;
+}
+
+.deleteBtn {
+  width: 100px;
+height: 50px;
+top: 20px;
+left: 45px;
+background-color: white;
+}
+
+.button {
+  width: 75px;
+height: 35px;
+top: 13px;
+left: 20px;
+text-decoration-thickness: 56px;
+color: black;
+}
+.bkbtn {
+  background-color: var(--purple);
+  color: white;
+  width: 201px;
+  height: 50px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .hero {
+    width: 50%;
+  }
+
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .heroImg {
+    width: 50%; 
+    text-align: end;
+  }
+}
+  
